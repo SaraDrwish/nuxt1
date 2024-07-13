@@ -14,6 +14,8 @@
           :to="item.to"
           router
           exact
+          color="orange lighten-2"
+          class="orange--text"
         >
           <v-list-item-action>
             <v-icon>{{ item.icon }}</v-icon>
@@ -34,13 +36,7 @@
         icon
         @click.stop="miniVariant = !miniVariant"
       >
-        <v-icon class="red--text">mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon class="red">mdi-application</v-icon>
+        <v-icon class="orange--text">mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
       </v-btn>
 
       <v-toolbar-title>{{ title }}</v-toolbar-title>
@@ -55,6 +51,7 @@
     <v-footer
       :absolute="!fixed"
       app
+      class="orange--text"
     >
       <span >&copy; Sara Darwish   </span> <span>  &copy;  {{ new Date().getFullYear() }} </span>
     </v-footer>
@@ -84,6 +81,11 @@ export default {
           icon: 'mdi-circle',
           title: 'My Projects',
           to: '/projects'
+        },
+        {
+          icon: 'mdi-play',
+          title: 'My Skills',
+          to: '/skills'
         },
         {
           icon: 'mdi-mail',

@@ -10,9 +10,10 @@
       <v-card-actions>
         <v-spacer />
         <v-btn
-          color="primary"
+          color="grey lighten-2"
+          class="orange--text"
           nuxt
-          to="/contact"
+          to="/skills"
         >
           Continue
         </v-btn>

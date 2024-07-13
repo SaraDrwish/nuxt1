@@ -2,16 +2,22 @@
   <v-row>
     <v-col class="my-4 orange text-center">
       <v-card class="pa-4 ">
-      <img
+      <!-- <img
       src="/v.png"
       alt="Vuetify.js"
       class="mb-5"
-      >
+      > -->
       <v-card-title class="headline">About Me
       </v-card-title>
       <v-card-text>
       <blockquote class="blockquote">
-      &#8220;First, solve the problem. Then, write the code.&#8221;
+      &#8220;
+       <p>🚀 I am a Developer , A Frontend . <br>
+          🚀 A seasoned web developer crafting pixel-perfect, visually stunning websites. <br>
+          🚀 Armed with a computer science degree, I excel in cutting-edge technologies like React and Vue. <br>
+          🚀 From innovative concepts to user-friendly websites, I turn visions into reality. <br>
+          🚀 Explore my digital realm, where each line of code paints the canvas of web possibilities. <br> </p>
+          &#8221;
         <footer>
           <small>
             <em>&mdash; Sara Darwish</em>
@@ -23,7 +29,8 @@
         <v-card-actions>
           <v-spacer />
           <v-btn
-            color="primary"
+            color="grey lighten-2"
+            class="orange--text"
             nuxt
             to="/projects"
           >

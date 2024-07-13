@@ -1,0 +1,28 @@
+*, html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+::-webkit-scrollbar{
+  width: 0.5rem;
+  height: 0.2rem;
+}
+::-webkit-scrollbar-track{
+    background-color: #1E1E1E;
+}
+ ::-webkit-scrollbar-thumb{
+  height: 0.2rem;
+  color: orange;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  background-color: rgb(255, 172, 6);
+}
+ ::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(186, 180, 169);
+ }
+
