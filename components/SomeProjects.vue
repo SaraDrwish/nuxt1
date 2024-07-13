@@ -11,7 +11,7 @@
           <v-img
             class="align-end text-white"
             height="200"
-            src="../assets/img/plant1.png"
+            src="../assets/img/1watch.png"
             cover
           >
             <v-card-title>Template 1 Watch</v-card-title>
@@ -83,7 +83,30 @@
       </v-card>
     </v-col>
     <!-- ............................................................................................ -->
-
+    <v-col cols="12" md="4">
+        <v-card
+            class="mx-auto yellow pa-2"
+            max-width="200"
+          >
+          <v-img
+            class="align-end text-white"
+            height="200"
+            src="../assets/img/4react.png"
+            cover
+          >
+            <v-card-title>Template 4</v-card-title>
+        </v-img>
+        <v-card-subtitle class="pt-4">
+          JS - HTML - CSS - React
+        </v-card-subtitle>
+        <v-card-text>
+          <a href="https://saradrwish.github.io/react3Porto/"  target="_blank">
+          <v-btn>More Detailes</v-btn>
+          </a>
+        </v-card-text>
+      </v-card>
+    </v-col>
+    <!-- ............................................................................................ -->
    </v-row>
 </div>
 
