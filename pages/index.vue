@@ -14,10 +14,27 @@
             stunning websites. With a degree in computer science . Let's turn your
             ideas into extraordinary digital realities 🚀!</h3>
             <br>
+          <hr class="my-3">
+          <div class="">
+            <v-card-title class="headline">Sara's Projects
+            </v-card-title>
+            <SomeProjects/>
+          </div>
+          <hr class="my-3">
+          <br>
+          <div class="">
+            <v-card-title class="headline">Sara's Skills
+            </v-card-title>
+            <SomeSkills/>
+          </div>
+          <hr class="my-3">
+          <br>
+          <div class="">
+            <v-card-title class="headline">Sara's Contacts
+            </v-card-title>
+            <SomeContacts/>
+          </div>
 
-          <!-- <div class="text-xs-right">
-            <em><small>&mdash; Sara Darwish </small></em>
-          </div> -->
           <hr class="my-3">
           <br>
           <a
@@ -65,9 +82,11 @@
 import Expe from '~/components/expe.vue'
 import Cv from '~/components/Cv.vue'
 import SomeProjects from '~/components/SomeProjects.vue'
+import SomeSkills from '~/components/SomeSkills.vue'
+import SomeContacts from '~/components/SomeContacts.vue'
 
 export default {
-  components: { Expe ,Cv , SomeProjects },
+  components: { Expe ,Cv , SomeProjects,SomeSkills ,SomeContacts},
   name: 'IndexPage'
 }
 </script>
