@@ -6,25 +6,107 @@
       <v-card-text class="orange--text">
         <div class="px-12 mx-12">
           HTML
-          <hr class="my-5">
-          CSS
-          <hr class="my-5">
+           <v-progress-linear
+            value="95"
+            height="6"
+            striped
+            color="deep-orange"
+            class="my-5"
+          ></v-progress-linear>
+
+           CSS
+           <v-progress-linear
+            height="6"
+            value="92"
+            striped
+            color="purple lighten-2"
+            class="my-5"
+          ></v-progress-linear>
+
           JavaScript
-          <hr class="my-5">
+         <v-progress-linear
+            color="light-green darken-3"
+            height="6"
+            value="80"
+            striped
+            class="my-5"
+          ></v-progress-linear>
+
           BootStrap
-          <hr class="my-5">
+
+          <v-progress-linear
+            color="blue"
+            height="6"
+            value="60"
+            striped
+            class="my-5"
+          ></v-progress-linear>
+
           Scss
-          <hr class="my-5">
+          <v-progress-linear
+            value="88"
+            height="6"
+            striped
+            color="orange"
+            class="my-5"
+          ></v-progress-linear>
+
           Tailwind css
-          <hr class="my-5">
+
+          <v-progress-linear
+            height="6"
+            value="79"
+            striped
+            color="pink"
+            class="my-5"
+          ></v-progress-linear>
+
           Vuetify
-          <hr class="my-5">
+           <v-progress-linear
+            color="light-green darken-1"
+            height="6"
+            value="70"
+            striped
+            class="my-5"
+          ></v-progress-linear>
+
           Vue js
-          <hr class="my-5">
+          <v-progress-linear
+            color="blue lighten-3"
+            height="6"
+            value="60"
+            striped
+            class="my-5"
+          ></v-progress-linear>
+
           Nuxt js 2
-          <hr class="my-5">
+          <v-progress-linear
+            value="50"
+            height="6"
+            striped
+            color="deep-orange"
+            class="my-5"
+          ></v-progress-linear>
+
           React js
-          <hr class="my-5">
+          <v-progress-linear
+            value="40"
+            height="6"
+            striped
+            color="purple darken-2"
+            class="my-5"
+          ></v-progress-linear>
+
+          PhP
+          <v-progress-linear
+            value="20"
+            height="6"
+            striped
+            color="pink"
+            class="my-5"
+          ></v-progress-linear>
+
+
         </div>
       </v-card-text>
       <v-card-actions>

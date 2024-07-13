@@ -3,10 +3,11 @@
     <div class="projects-box">
       <v-row>
 
-        <v-col cols="12" md="4">
+        <v-col cols="12" md="3">
         <v-card
-            class="mx-auto yellow pa-2"
+            class="mx-auto orange pa-2"
             max-width="200"
+             height="350"
           >
           <v-img
             class="align-end text-white"
@@ -31,10 +32,11 @@
       </v-card>
     </v-col>
     <!-- ............................................................................................ -->
-     <v-col cols="12" md="4">
+     <v-col cols="12" md="3">
         <v-card
-            class="mx-auto yellow pa-2"
+            class="mx-auto orange pa-2"
             max-width="200"
+            height="350"
           >
           <v-img
             class="align-end text-white"
@@ -59,10 +61,11 @@
       </v-card>
     </v-col>
     <!-- ............................................................................................ -->
-    <v-col cols="12" md="4">
+    <v-col cols="12" md="3">
         <v-card
-            class="mx-auto yellow pa-2"
+            class="mx-auto orange pa-2"
             max-width="200"
+            height="350"
           >
           <v-img
             class="align-end text-white"
@@ -83,10 +86,11 @@
       </v-card>
     </v-col>
     <!-- ............................................................................................ -->
-    <v-col cols="12" md="4">
+    <v-col cols="12" md="3">
         <v-card
-            class="mx-auto yellow pa-2"
+            class="mx-auto orange pa-2"
             max-width="200"
+            height="350"
           >
           <v-img
             class="align-end text-white"
@@ -99,7 +103,7 @@
         <v-card-subtitle class="pt-4">
           JS - HTML - CSS - React
         </v-card-subtitle>
-        <v-card-text>
+        <v-card-text >
           <a href="https://saradrwish.github.io/react3Porto/"  target="_blank">
           <v-btn>More Detailes</v-btn>
           </a>
@@ -110,8 +114,11 @@
    </v-row>
 </div>
 
-   <v-btn class="my-8 ml-9 orange grey--text" ><a href="/projects">  All Projects  </a></v-btn>
 
+  <v-card-actions>
+    <v-spacer />
+    <v-btn class="my-12 ml-12 orange lighten-2 grey--text" ><a href="/projects">  All Projects  </a></v-btn>
+  </v-card-actions>
 
   </div>
 </template>

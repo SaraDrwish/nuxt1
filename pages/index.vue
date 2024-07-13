@@ -33,6 +33,8 @@
             <v-card-title class="headline">Sara's Contacts
             </v-card-title>
             <SomeContacts/>
+            <br>
+            <Cv/>
           </div>
 
           <hr class="my-3">
