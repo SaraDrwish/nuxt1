@@ -4,26 +4,28 @@
       <v-card-title class="headline">My Skills
       </v-card-title>
       <v-card-text class="orange--text">
-        HTML
-        <hr class="my-3">
-        CSS
-        <hr class="my-3">
-        JavaScript
-        <hr class="my-3">
-        BootStrap
-        <hr class="my-3">
-        Scss
-        <hr class="my-3">
-        Tailwind css
-        <hr class="my-3">
-        Vuetify
-        <hr class="my-3">
-        Vue js
-        <hr class="my-3">
-        Nuxt js 2
-        <hr class="my-3">
-        React js
-        <hr class="my-3">
+        <div class="px-12 mx-12">
+          HTML
+          <hr class="my-5">
+          CSS
+          <hr class="my-5">
+          JavaScript
+          <hr class="my-5">
+          BootStrap
+          <hr class="my-5">
+          Scss
+          <hr class="my-5">
+          Tailwind css
+          <hr class="my-5">
+          Vuetify
+          <hr class="my-5">
+          Vue js
+          <hr class="my-5">
+          Nuxt js 2
+          <hr class="my-5">
+          React js
+          <hr class="my-5">
+        </div>
       </v-card-text>
       <v-card-actions>
         <v-spacer />

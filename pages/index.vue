@@ -45,15 +45,15 @@
         <br>
         <br>
         <p>Thank you </p>
-          <v-spacer />
-          <v-btn
-            color="grey lighten-2"
-            class="orange--text"
-            nuxt
-            to="/about"
-          >
-            Continue
-          </v-btn>
+        <v-spacer />
+        <v-btn
+          color="grey lighten-2"
+          class="orange--text"
+          nuxt
+          to="/about"
+        >
+          Continue
+        </v-btn>
         </v-card-actions>
       </v-card>
     </div>
