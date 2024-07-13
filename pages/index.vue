@@ -10,11 +10,14 @@
         <v-card-title class="headline">Sara's Portfolio
         </v-card-title>
         <v-card-text>
+          <h3>🚀 Hi! I'm Sara Darwish, an experienced web developer skilled in crafting
+            stunning websites. With a degree in computer science . Let's turn your
+            ideas into extraordinary digital realities 🚀!</h3>
+            <br>
 
-          <p>Thank you </p>
-          <div class="text-xs-right">
+          <!-- <div class="text-xs-right">
             <em><small>&mdash; Sara Darwish </small></em>
-          </div>
+          </div> -->
           <hr class="my-3">
           <br>
           <a
@@ -36,8 +39,12 @@
           >
             linkedin
           </a>
+
         </v-card-text>
         <v-card-actions>
+        <br>
+        <br>
+        <p>Thank you </p>
           <v-spacer />
           <v-btn
             color="grey lighten-2"

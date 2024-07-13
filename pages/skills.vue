@@ -3,7 +3,7 @@
     <v-card class="pa-4 ">
       <v-card-title class="headline">My Skills
       </v-card-title>
-      <v-card-text>
+      <v-card-text class="orange--text">
         HTML
         <hr class="my-3">
         CSS
