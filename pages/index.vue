@@ -15,7 +15,7 @@
             ideas into extraordinary digital realities 🚀!</h3>
             <br>
           <hr class="my-3">
-          <div class="">
+          <div class="projects">
             <v-card-title class="headline">Sara's Projects
             </v-card-title>
             <SomeProjects/>
@@ -23,6 +23,35 @@
           <hr class="my-3">
           <br>
           <div class="">
+            <v-carousel
+                cycle
+                height="100"
+                hide-delimiter-background
+                show-arrows-on-hover
+              >
+                <v-carousel-item
+                  v-for="(slide, i) in slides"
+                  :key="i"
+                >
+                  <v-sheet
+                    :color="colors[i]"
+                    height="100%"
+                  >
+                    <v-row
+                      class="fill-height"
+                      align="center"
+                      justify="center"
+                    >
+                      <div class="text-h2">
+                        {{ slide }} Slide
+                      </div>
+                    </v-row>
+                  </v-sheet>
+                </v-carousel-item>
+              </v-carousel>
+          </div>
+          <br>
+          <div class="skills">
             <v-card-title class="headline">Sara's Skills
             </v-card-title>
             <SomeSkills/>
@@ -89,6 +118,24 @@ import SomeContacts from '~/components/SomeContacts.vue'
 
 export default {
   components: { Expe ,Cv , SomeProjects,SomeSkills ,SomeContacts},
-  name: 'IndexPage'
+  name: 'IndexPage',
+  data () {
+      return {
+        colors: [
+          'indigo',
+          'warning',
+          'pink darken-2',
+          'red lighten-1',
+          'deep-purple accent-4',
+        ],
+        slides: [
+          'First',
+          'Second',
+          'Third',
+          'Fourth',
+          'Fifth',
+        ],
+      }
+    },
 }
 </script>
