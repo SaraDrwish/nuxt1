@@ -3,8 +3,6 @@
     <v-col cols="12" sm="8" md="12">
     <div class="orange light-5 pa-4">
       <v-card class="logo orange pa-4 d-flex justify-center">
-        <!-- <Cv />
-        <Expe /> -->
       </v-card>
       <v-card class="  pa-4 ">
         <v-card-title class="headline">Sara's Portfolio
@@ -25,32 +23,28 @@
           <div class="">
             <v-carousel
                 cycle
-                height="100"
+                height="150"
                 hide-delimiter-background
                 show-arrows-on-hover
+                hide-delimiters
+               >
+              <v-carousel-item
+                v-for="(item,i) in items"
+                :key="i"
+                :src="item.src"
+                reverse-transition="fade-transition"
+                transition="fade-transition"
+                cover
+                center
+                width="100"
+                height="100"
+                class="mx-auto"
               >
-                <v-carousel-item
-                  v-for="(slide, i) in slides"
-                  :key="i"
-                >
-                  <v-sheet
-                    :color="colors[i]"
-                    height="100%"
-                  >
-                    <v-row
-                      class="fill-height"
-                      align="center"
-                      justify="center"
-                    >
-                      <div class="text-h2">
-                        {{ slide }} Slide
-                      </div>
-                    </v-row>
-                  </v-sheet>
-                </v-carousel-item>
-              </v-carousel>
+              </v-carousel-item>
+            </v-carousel>
           </div>
           <br>
+          <hr class="my-3">
           <div class="skills">
             <v-card-title class="headline">Sara's Skills
             </v-card-title>
@@ -121,19 +115,25 @@ export default {
   name: 'IndexPage',
   data () {
       return {
-        colors: [
-          'indigo',
-          'warning',
-          'pink darken-2',
-          'red lighten-1',
-          'deep-purple accent-4',
-        ],
-        slides: [
-          'First',
-          'Second',
-          'Third',
-          'Fourth',
-          'Fifth',
+        items: [
+          {
+            src: require('../assets/img/itrax.png'),
+          },
+          {
+            src: require('../assets/img/jazeel.png'),
+          },
+          {
+            src: require('../assets/img/seff.png'),
+          },
+          {
+            src: require('../assets/img/prain.png'),
+          },
+          {
+            src: require('../assets/img/solo.png'),
+          },
+          {
+            src: require('../assets/img/yege.png'),
+          },
         ],
       }
     },
