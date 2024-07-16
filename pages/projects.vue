@@ -1,5 +1,5 @@
 <template>
-  <div class="orange pa-8 rounded">
+  <div class="orange my-8 pa-8 rounded">
     <v-card class="pa-4 ">
       <v-card-title class="headline">My Projects
       </v-card-title>
@@ -12,7 +12,7 @@
     <v-img
       class="align-end text-white"
       height="200"
-      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+      :src="require('../assets/img/2plant.png')"
       cover
     >
       <v-card-title>Top 10 Australian beaches</v-card-title>
@@ -202,15 +202,17 @@
     </v-card>
     </v-col>
 <!-- ............................................................................................ -->
-<v-col cols="12" md="4">
- <v-card
+<v-col rounded cols="12" md="4">
+ <v-card rounded
 
   >
     <v-img
       class="align-end text-white"
-      height="200"
+      height="300"
+      width="300"
       src= "https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-      cover
+      contain
+      rounded
     >
       <v-card-title>Top 10 Australian beaches</v-card-title>
     </v-img>

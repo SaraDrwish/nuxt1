@@ -1,9 +1,9 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="12">
-    <div class="orange light-5 pa-4">
-      <v-card class="logo orange pa-4 d-flex justify-center">
-      </v-card>
+    <div class="orange my-8 pa-4 light-5 ">
+      <!-- <v-card class="logo orange pa-4 d-flex justify-center">
+      </v-card> -->
       <v-card class="  pa-4 ">
         <v-card-title class="headline">Sara's Portfolio
         </v-card-title>
@@ -23,10 +23,12 @@
           <div class="">
             <v-carousel
                 cycle
-                height="150"
+                width="300"
+                height="200"
                 hide-delimiter-background
                 show-arrows-on-hover
                 hide-delimiters
+                class="mx-auto"
                >
               <v-carousel-item
                 v-for="(item,i) in items"
@@ -36,8 +38,8 @@
                 transition="fade-transition"
                 cover
                 center
-                width="100"
-                height="100"
+                width="300"
+                height="200"
                 class="mx-auto"
               >
               </v-carousel-item>

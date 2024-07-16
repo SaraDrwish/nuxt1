@@ -41,7 +41,7 @@
           <v-img
             class="align-end text-white"
             height="200"
-            src="../assets/img/2plant.png"
+            :src='require(`../assets/img/2plant.png`)'
             cover
           >
             <v-card-title>Template 2 Plant</v-card-title>
