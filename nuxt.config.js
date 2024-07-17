@@ -23,7 +23,7 @@ export default {
 
   modules: ["@nuxtjs/axios"],
   router: {
-    base: "nuxt1",
+    base: "/nuxt1/",
   },
 
   axios: {
