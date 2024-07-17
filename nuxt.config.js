@@ -3,7 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   head: {
-    titleTemplate: "%s",
+    titleTemplate: "%s - Sara's Web",
     title: "web-sara",
     htmlAttrs: {
       lang: "en",
@@ -14,8 +14,7 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
     ],
-    link:
-      [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
+    link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
   },
 
   css: ["./assets/main.scss"],
