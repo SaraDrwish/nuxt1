@@ -644,7 +644,7 @@
       Number 24
     </v-card-subtitle>
     <v-card-text>
-      <div>HTML - CSS - JS - Vue js -Tailwindcss </div>
+      <div>HTML - CSS - JS - Vue js 3 - Tailwindcss - api </div>
     </v-card-text>
     <v-card-actions class="pb-9">
       <a class="mx-2" href="https://github.com/SaraDrwish/algoriza-internship-FE204" target="_blank">
@@ -675,7 +675,7 @@
       Number 25
     </v-card-subtitle>
     <v-card-text>
-      <div>SCSS - HTML - JS - Vue js - nuxt 2 - vuetify 2 - axios - auth </div>
+      <div>SCSS - HTML - JS - Vue js 2 - nuxt 2 - vuetify 2 - axios - auth </div>
     </v-card-text>
     <v-card-actions class="pb-9">
       <a class="mx-2" target="_blank" href="https://gitlab.com/it.saradarwish/nuxttask1"><v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
@@ -865,27 +865,9 @@
     </v-card>
   </v-col>
 <!-- ............................................................................................ -->
-<v-col cols="12" md="4" >
-  <v-card rounded class="orange darken-2" >
-    <a href="">
-    <v-img
-      class="align-end text-white"
-      height="200"
-      cover
-    >
-      <v-card-title class="grey darken-3 orange--text pa-2">Template Somoq </v-card-title>
-    </v-img></a>
-    <v-card-subtitle class="pt-4">
-      Number 33
-    </v-card-subtitle>
-    <v-card-text>
-      <div> </div>
-    </v-card-text>
-    <v-card-actions class="pb-9">
-      <a class="ml-2" target="_blank" href="#"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
-    </v-card-actions>
-  </v-card>
-  </v-col>
+
+
+
   </v-row>
 
   <!-- ............................................................................................ -->
