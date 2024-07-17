@@ -4,11 +4,11 @@
       <v-card-title class="headline">My Projects
       </v-card-title>
       <v-card-text>
-       <div class="pink lighten-5 pa-2 ma-2"  >
+       <div class="pa-2 ma-2"  >
         <v-row>
 <!-- ............................................................................................ -->
  <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a target="_blank" href="https://saradrwish.github.io/task19/">
     <v-img
       class="align-end text-white"
@@ -32,7 +32,7 @@
     </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="https://saradrwish.github.io/temp1_bootstrab_plant/" target="_blank">
     <v-img
       class="align-end text-white"
@@ -57,7 +57,7 @@
   </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4" >
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="https://saradrwish.github.io/template1/" target="_blank">
     <v-img
       class="align-end text-white"
@@ -85,7 +85,7 @@
 <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
   <v-row>
     <v-col cols="12" md="4">
-      <v-card  >
+      <v-card rounded class="orange darken-2" >
         <a href="https://saradrwish.github.io/template2/" target="_blank">
           <v-img
             class="align-end text-white"
@@ -110,7 +110,7 @@
   </v-card>
 </v-col>
  <v-col cols="12" md="4">
-      <v-card  >
+      <v-card rounded class="orange darken-2" >
         <a href="https://saradrwish.github.io/task13full/" target="_blank">
           <v-img
             class="align-end text-white"
@@ -138,7 +138,7 @@
 <!-- ............................................................................................ -->
 
  <v-col cols="12" md="4">
-      <v-card  >
+      <v-card rounded class="orange darken-2" >
         <a href="https://saradrwish.github.io/filter/" target="_blank">
           <v-img
             class="align-end text-white"
@@ -170,7 +170,7 @@
   <v-row>
 <!-- ............................................................................................ -->
  <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a target="_blank" href="https://saradrwish.github.io/js_task_close_prev_next/">
     <v-img
       class="align-end text-white"
@@ -194,7 +194,7 @@
     </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="https://saradrwish.github.io/radwatasknewcrud24v1/" target="_blank">
     <v-img
       class="align-end text-white"
@@ -219,7 +219,7 @@
   </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4" >
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="https://saradrwish.github.io/task26/" target="_blank">
     <v-img
       class="align-end text-white"
@@ -248,7 +248,7 @@
 <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
   <v-row>
     <v-col cols="12" md="4">
-      <v-card  >
+      <v-card rounded class="orange darken-2" >
         <a href="https://saradrwish.github.io/task28json/" target="_blank">
           <v-img
             class="align-end text-white"
@@ -274,7 +274,7 @@
 </v-col>
 <!-- .................................................................................... -->
  <v-col cols="12" md="4">
-      <v-card  >
+      <v-card rounded class="orange darken-2" >
         <a href="https://saradrwish.github.io/template3ghost/" target="_blank">
           <v-img
             class="align-end text-white"
@@ -302,7 +302,7 @@
 <!-- ............................................................................................ -->
 
  <v-col cols="12" md="4">
-      <v-card  >
+      <v-card rounded class="orange darken-2" >
         <a href="https://saradrwish.github.io/leonjs5/" target="_blank">
           <v-img
             class="align-end text-white"
@@ -334,7 +334,7 @@
 
   <v-row>
     <v-col cols="12" md="4">
-      <v-card  >
+      <v-card rounded class="orange darken-2" >
         <a href="https://saradrwish.github.io/ProjectOne23/" target="_blank">
           <v-img
             class="align-end text-white"
@@ -360,7 +360,7 @@
 </v-col>
 <!-- .................................................................................... -->
  <v-col cols="12" md="4">
-      <v-card  >
+      <v-card rounded class="orange darken-2" >
         <a href="https://saradrwish.github.io/Project2/" target="_blank">
           <v-img
             class="align-end text-white"
@@ -388,7 +388,7 @@
 <!-- ............................................................................................ -->
 
  <v-col cols="12" md="4">
-      <v-card  >
+      <v-card rounded class="orange darken-2" >
         <a href="https://saradrwish.github.io/project3_bootstrap/" target="_blank">
           <v-img
             class="align-end text-white"
@@ -421,7 +421,7 @@
   <v-row>
 <!-- ............................................................................................ -->
  <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a target="_blank" href="https://saradrwish.github.io/todo2023/">
     <v-img
       class="align-end text-white"
@@ -445,7 +445,7 @@
     </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="https://saradrwish.github.io/js_task1/" target="_blank">
     <v-img
       class="align-end text-white"
@@ -470,7 +470,7 @@
   </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4" >
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="https://saradrwish.github.io/app1-shopping/index.html" target="_blank">
     <v-img
       class="align-end text-white"
@@ -501,7 +501,7 @@
   <v-row>
 <!-- ............................................................................................ -->
  <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a target="_blank" href="https://saradrwish.github.io/pro1cha2/">
     <v-img
       class="align-end text-white"
@@ -525,7 +525,7 @@
     </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="https://saradrwish.github.io/reaaaacttttt23/" target="_blank">
     <v-img
       class="align-end text-white"
@@ -550,7 +550,7 @@
   </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4" >
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="https://github.com/SaraDrwish/srpo-react" target="_blank">
     <v-img
       class="align-end text-white"
@@ -581,7 +581,7 @@
   <v-row>
 <!-- ............................................................................................ -->
  <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a target="_blank" href="https://saradrwish.github.io/react3Porto/">
     <v-img
       class="align-end text-white"
@@ -605,7 +605,7 @@
     </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="https://saradrwish.github.io/myportofolio2022march/" target="_blank">
     <v-img
       class="align-end text-white"
@@ -630,7 +630,7 @@
   </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4" >
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="https://github.com/SaraDrwish/algoriza-internship-FE204" target="_blank">
     <v-img
       class="align-end text-white"
@@ -661,7 +661,7 @@
   <v-row>
 <!-- ............................................................................................ -->
  <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a target="_blank" href="https://gitlab.com/it.saradarwish/nuxttask1">
     <v-img
       :src="require('../assets/img/nuxt1.png')"
@@ -685,7 +685,7 @@
     </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="https://gitlab.com/it.saradarwish/gitflow-task5-vuetify-v1" target="_blank">
     <v-img
       class="align-end text-white"
@@ -710,7 +710,7 @@
   </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4" >
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="" target="_blank">
     <v-img
       class="align-end text-white"
@@ -741,7 +741,7 @@
   <v-row>
 <!-- ............................................................................................ -->
  <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a target="_blank" href="https://incomparable-manatee-a1580d.netlify.app/">
     <v-img
       :src="require('../assets/img/portfolioLast2.png')"
@@ -765,7 +765,88 @@
     </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4">
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
+    <a href="https://gitlab.com/it.saradarwish/gitflow-task5-vuetify-v1" target="_blank">
+    <v-img
+      class="align-end text-white"
+      :src="require('../assets/img/dashVuenuxt2.png')"
+      height="200"
+      cover
+    >
+      <v-card-title  class="grey darken-3 orange--text pa-2" >Template 29 </v-card-title>
+    </v-img></a>
+    <v-card-subtitle class="pt-4">
+      Number 29
+    </v-card-subtitle>
+    <v-card-text>
+      <div>HTML - CSS - JS - Vue js - Nuxt js 2</div>
+    </v-card-text>
+    <v-card-actions class="pb-9">
+      <a class="mx-2" target="_blank" href="https://gitlab.com/it.saradarwish/gitflow-task5-vuetify-v1">
+      <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
+      <a href="../assets/vedios/vueNuxt2.mp4"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+    </v-card-actions>
+    </v-card>
+  </v-col>
+<!-- ............................................................................................ -->
+<v-col cols="12" md="4" >
+  <v-card rounded class="orange darken-2" >
+    <a href="" target="_blank">
+    <v-img
+      class="align-end text-white"
+      height="200"
+      :src="require('../assets/img/smallStaticVueSite.png')"
+      cover
+    >
+      <v-card-title class="grey darken-3 orange--text pa-2">Template 29 </v-card-title>
+    </v-img></a>
+    <v-card-subtitle class="pt-4">
+      Number 29
+    </v-card-subtitle>
+    <v-card-text>
+      <div>HTML - CSS - JS - Vue js </div>
+    </v-card-text>
+    <v-card-actions class="pb-9">
+      <a class="mx-2" href=" " target="_blank">
+        <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
+      <a class="ml-2" target="_blank" href="#"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+    </v-card-actions>
+  </v-card>
+  </v-col>
+  </v-row>
+
+  <!-- ............................................................................................ -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+  <v-row>
+<!-- ............................................................................................ -->
+ <v-col cols="12" md="4">
+  <v-card rounded class="orange darken-2" >
+    <a target="_blank" href="https://incomparable-manatee-a1580d.netlify.app/">
+    <v-img
+      :src="require('../assets/img/portfolioLast2.png')"
+      class="align-end text-white"
+      height="200"
+      cover
+    >
+      <v-card-title  class="grey darken-3 orange--text pa-2" >Template  30</v-card-title>
+    </v-img></a>
+    <v-card-subtitle class="pt-4">
+      Number 30
+    </v-card-subtitle>
+    <v-card-text>
+      <div>css - HTML - JS - React js</div>
+    </v-card-text>
+    <v-card-actions class="pb-9">
+      <a class="mx-2" target="_blank" href=" "><v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
+      <a class="mx-2" target="_blank" href="#"><v-btn to='#' class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+    </v-card-actions>
+  </v-card>
+    </v-col>
+<!-- ............................................................................................ -->
+<v-col cols="12" md="4">
+  <v-card rounded class="orange darken-2" >
     <a href="https://gitlab.com/it.saradarwish/gitflow-task5-vuetify-v1" target="_blank">
     <v-img
       class="align-end text-white"
@@ -790,7 +871,7 @@
   </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4" >
-  <v-card  >
+  <v-card rounded class="orange darken-2" >
     <a href="" target="_blank">
     <v-img
       class="align-end text-white"
@@ -817,6 +898,7 @@
 
   <!-- ............................................................................................ -->
 <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
 
 
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
