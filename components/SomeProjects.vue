@@ -12,17 +12,17 @@
           <v-img
             class="align-end text-white"
             height="200"
-            :src='require("../assets/img/1watch.png")'
+            :src='require("../assets/img/dashVuenuxt2.png")'
             cover
           >
             <v-card-title class="orange--text grey darken-3 pa-1">Template 1 </v-card-title>
         </v-img>
         <v-card-subtitle class="pt-4">
-          HTML - CSS
+          HTML - SCSS - Vue js - Vuetify
         </v-card-subtitle>
         <v-spacer></v-spacer>
         <v-card-text class="bottom" bottom>
-          <a href="https://saradrwish.github.io/task19/"  target="_blank">
+          <a href="https://gitlab.com/it.saradarwish/gitflow-task5-vuetify-v1"  target="_blank">
           <v-btn bottom class="bottom">More Detailes</v-btn>
           </a>
         </v-card-text>
