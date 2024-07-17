@@ -321,7 +321,7 @@
     <v-card-actions class="pb-9">
       <a class="mx-2" href="https://github.com/SaraDrwish/leonjs5" target="_blank">
         <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
-      <a class="ml-2" target="_blank" href="#">
+      <a class="ml-2" target="_blank" href="https://www.linkedin.com/posts/sara-darwish-d_zero-elzero-activity-6944739530486784000-vw7A?utm_source=share&utm_medium=member_desktop">
         <v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
     </v-card-actions>
   </v-card>
@@ -649,10 +649,41 @@
     <v-card-actions class="pb-9">
       <a class="mx-2" href="https://github.com/SaraDrwish/algoriza-internship-FE204" target="_blank">
         <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
-      <a class="ml-2" target="_blank" href="../assets/vedios/travelVueProject.mp4"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+      <!-- <a class="ml-2" target="_blank" href="../assets/vedios/travelVueProject.mp4"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a> -->
+
+    <v-dialog
+        v-model="dialog2"
+        width="900"
+      >
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn v-bind="attrs" v-on="on" class="orange lighten-4" color="orange" text="Explore">Explore</v-btn>
+        </template>
+        <v-card>
+          <v-card-title class="text-h5 orange lighten-2">
+            Watch 24 Project Video
+          </v-card-title>
+          <v-card-text>
+              <video
+                :src='require("../assets/vedios/travelVueProject.mp4")'
+                autoplay
+                muted
+                loop
+                playsinline
+                width="800"
+                height="500"
+                controls
+                rounded class="orange pa-2 my-2 mx-auto center "
+              >
+                Your browser does not support the video 24 tag.
+              </video>
+
+          </v-card-text>
+        </v-card>
+      </v-dialog>
     </v-card-actions>
-  </v-card>
-  </v-col>
+    </v-card>
+
+   </v-col>
   </v-row>
 
   <!-- ............................................................................................ -->
@@ -679,7 +710,40 @@
     </v-card-text>
     <v-card-actions class="pb-9">
       <a class="mx-2" target="_blank" href="https://gitlab.com/it.saradarwish/nuxttask1"><v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
-      <a class="mx-2" target="_blank" href="#"><v-btn to='#' class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+      <!-- <a class="mx-2" target="_blank" href="#"><v-btn to='#' class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a> -->
+
+    <v-dialog
+        v-model="dialog3"
+        width="900"
+      >
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn v-bind="attrs" v-on="on" class="orange lighten-4" color="orange" text="Explore">Explore</v-btn>
+        </template>
+        <v-card>
+          <v-card-title class="text-h5 orange lighten-2">
+            Watch 25 Project Video
+          </v-card-title>
+          <v-card-actions>
+             <!-- <video   :src='require("../assets/vedios/nuxt1.mp4")'></video> -->
+             <video
+                :src='require("../assets/vedios/nuxt1.mp4")'
+                autoplay
+                muted
+                loop
+                playsinline
+                width="800"
+                height="500"
+                controls
+                center
+                rounded
+                class="orange pa-2 my-2 mx-auto center "
+              >
+                Your browser does not support the video 25 tag.
+              </video>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
+
     </v-card-actions>
   </v-card>
     </v-col>
@@ -704,14 +768,45 @@
     <v-card-actions class="pb-9">
       <a class="mx-2" target="_blank" href="https://gitlab.com/it.saradarwish/gitflow-task5-vuetify-v1">
       <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
-      <a href="../assets/vedios/vueNuxt2.mp4"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+      <!-- <a href="../assets/vedios/vueNuxt2.mp4"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a> -->
+      <v-dialog
+        v-model="dialog"
+        width="900"
+      >
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn v-bind="attrs" v-on="on" class="orange lighten-4" color="orange" text="Explore">Explore</v-btn>
+        </template>
+        <v-card>
+          <v-card-title class="text-h5 orange lighten-2">
+            Watch 26 Project Video
+          </v-card-title>
+          <v-card-actions>
+            <!-- <video href="../assets/vedios/vueNuxt2.mp4" class="pa-2 ma-2 orange"></video> -->
+            <video
+                :src='require("../assets/vedios/vueNuxt2.mp4")'
+                autoplay
+                muted
+                loop
+                playsinline
+                width="800"
+                height="500"
+                controls
+                center
+                rounded
+                class="orange pa-2 my-2 mx-auto center "
+              >
+                Your browser does not support the video 26 tag.
+              </video>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
     </v-card-actions>
     </v-card>
   </v-col>
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4" >
   <v-card rounded class="orange darken-2" >
-    <a href="https://github.com/SaraDrwish/sara-s-task1-1-vueJs" target="_blank">
+    <a href="https://www.linkedin.com/posts/sara-darwish-d_vuejs-vue-js-activity-7168486257377828865-mlsy?utm_source=share&utm_medium=member_desktop" target="_blank">
     <v-img
       class="align-end text-white"
       height="200"
@@ -815,8 +910,7 @@
   <!-- ............................................................................................ -->
 <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
 
-
-  <v-row>
+<v-row>
 <!-- ............................................................................................ -->
  <v-col cols="12" md="4" >
   <v-card rounded class="orange darken-2" >
@@ -836,7 +930,28 @@
       <div>WordPress</div>
     </v-card-text>
     <v-card-actions class="pb-9">
-      <a class="ml-2" target="_blank" href="#"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+      <!-- <a class="ml-2" target="_blank" href="#"> -->
+
+        <!-- <v-btn class="orange lighten-4" color="orange" text="Explore">
+        Explore
+        </v-btn> -->
+        <!-- </a> -->
+        <v-dialog
+        v-model="dialog4"
+        width="900"
+      >
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn v-bind="attrs" v-on="on" class="orange lighten-4" color="orange" text="Explore">Explore</v-btn>
+        </template>
+        <v-card>
+          <v-card-title class="text-h5 orange lighten-2">
+            Watch 31 Project Video
+          </v-card-title>
+          <v-card-actions>
+            <iframe rounded class="orange pa-2 my-2 mx-auto center " src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7168527361460711424" height="465" width="504" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
     </v-card-actions>
   </v-card>
   </v-col>
@@ -849,13 +964,13 @@
       height="200"
       cover
     >
-      <v-card-title  class="grey darken-3 orange--text pa-2" >Template Todo app</v-card-title>
+      <v-card-title  class="grey darken-3 orange--text pa-2" >Template  </v-card-title>
     </v-img></a>
     <v-card-subtitle class="pt-4">
       Number 32
     </v-card-subtitle>
     <v-card-text>
-      <div>HTML - CSS - JS - Vue js </div>
+      <div>  Vue js </div>
     </v-card-text>
     <v-card-actions class="pb-9">
       <a class="mx-2" target="_blank" href="">
@@ -866,13 +981,10 @@
   </v-col>
 <!-- ............................................................................................ -->
 
-
-
   </v-row>
 
   <!-- ............................................................................................ -->
 <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
-
 
 
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -898,7 +1010,16 @@
 
 <script>
 export default {
-    name:"projects"
+  name:"projects",
+  data () {
+    return {
+      dialog: false,
+      dialog2:false,
+      dialog3:false,
+      dialog4:false,
+
+      }
+  }
 
   }
 </script>

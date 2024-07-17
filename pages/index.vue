@@ -1,5 +1,15 @@
 <template>
   <v-row justify="center" align="center">
+    <!-- ////////////////////////////// -->
+      <!-- <div>
+        <img
+          ref="mouseImage"
+          src="../assets/img/LOGO.png"
+          alt="Mouse Image"
+          class="orange pa-1 mouse-image"
+        >
+      </div> -->
+    <!-- ////////////////////////////// -->
     <v-col cols="12" sm="8" md="12">
     <div class="orange my-8 pa-4 light-5 ">
       <!-- <v-card class="logo orange pa-4 d-flex justify-center">
@@ -31,7 +41,7 @@
                 hide-delimiters
                 class="mx-auto"
                 contain
-               >
+                >
               <v-carousel-item
                 v-for="(item,i) in items"
                 :key="i"
@@ -108,38 +118,61 @@
 </template>
 
 <script>
-import Expe from '~/components/expe.vue'
-import Cv from '~/components/Cv.vue'
-import SomeProjects from '~/components/SomeProjects.vue'
-import SomeSkills from '~/components/SomeSkills.vue'
-import SomeContacts from '~/components/SomeContacts.vue'
+import Expe from '~/components/expe.vue';
+import Cv from '~/components/Cv.vue';
+import SomeProjects from '~/components/SomeProjects.vue';
+import SomeSkills from '~/components/SomeSkills.vue';
+import SomeContacts from '~/components/SomeContacts.vue';
 
 export default {
   components: { Expe ,Cv , SomeProjects,SomeSkills ,SomeContacts},
   name: 'IndexPage',
   data () {
-      return {
-        items: [
-          {
-            src: require('../assets/img/itrax.png'),
-          },
-          {
-            src: require('../assets/img/jazeel.png'),
-          },
-          {
-            src: require('../assets/img/seff.png'),
-          },
-          {
-            src: require('../assets/img/prain.png'),
-          },
-          {
-            src: require('../assets/img/solo.png'),
-          },
-          {
-            src: require('../assets/img/yege.png'),
-          },
-        ],
-      }
-    },
+    return {
+      items: [
+        {
+          src: require('../assets/img/itrax.png'),
+        },
+        {
+          src: require('../assets/img/jazeel.png'),
+        },
+        {
+          src: require('../assets/img/seff.png'),
+        },
+        {
+          src: require('../assets/img/prain.png'),
+        },
+        {
+          src: require('../assets/img/solo.png'),
+        },
+        {
+          src: require('../assets/img/yege.png'),
+        },
+      ],
+    }
+  },
+  // mounted() {
+  //   document.addEventListener("mousemove", this.updateMousePosition);
+  // },
+  // beforeDestroy() {
+  //   document.removeEventListener("mousemove", this.updateMousePosition);
+  // },
+  // methods: {
+  //   updateMousePosition(e) {
+  //     const image = this.$refs.mouseImage;
+  //     image.style.left = e.clientX + "px";
+  //     image.style.top = e.clientY + "px";
+  //   },
+  // },
 }
 </script>
+
+<style scoped>
+/* .mouse-image {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  pointer-events: none;
+  z-index: 1000;
+} */
+</style>
