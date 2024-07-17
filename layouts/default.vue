@@ -20,11 +20,11 @@
           :to="item.to"
           router
           exact
-          color="orange lighten-2"
+          color="orange"
           class="orange--text"
         >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+          <v-list-item-action class=" ">
+            <v-icon class="">{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>{{ item.title }}</v-list-item-title>
@@ -65,7 +65,7 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <Loader/>
+        <!-- <Loader/> -->
         <Nuxt />
       </v-container>
     </v-main>
@@ -81,12 +81,12 @@
 </template>
 
 <script>
-import Loader from '~/components/Loader.vue';
+//import Loader from '~/components/Loader.vue';
 
 export default {
   name: 'DefaultLayout',
   components: {
-    Loader
+    //Loader
   },
   // async beforeCreate() {
   //   this.$root.$emit('start-loading');
@@ -94,20 +94,20 @@ export default {
   // async created() {
   //   this.$root.$emit('stop-loading');
   // },
-   async beforeCreate() {
-    this.$root.$emit('start-loading');
-  },
-  async created() {
-    this.$root.$emit('stop-loading');
-  },
-  watch: {
-    '$route'(to, from) {
-      this.$root.$emit('start-loading');
-      this.$nextTick(() => {
-        this.$root.$emit('stop-loading');
-      });
-    }
-  },
+  //  async beforeCreate() {
+  //   this.$root.$emit('start-loading');
+  // },
+  // async created() {
+  //   this.$root.$emit('stop-loading');
+  // },
+  // watch: {
+  //   '$route'(to, from) {
+  //     this.$root.$emit('start-loading');
+  //     this.$nextTick(() => {
+  //       this.$root.$emit('stop-loading');
+  //     });
+  //   }
+  // },
   data () {
     return {
       clipped: false,

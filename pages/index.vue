@@ -11,10 +11,10 @@
       </div> -->
     <!-- ////////////////////////////// -->
     <v-col cols="12" sm="8" md="12">
-    <div class="orange my-8 pa-4 light-5 ">
+    <div class="orange my-6 pa-4 light-5 ">
       <!-- <v-card class="logo orange pa-4 d-flex justify-center">
       </v-card> -->
-      <v-card class="  pa-4 ">
+      <v-card class="pa-4 ">
         <v-card-title class="headline">Sara's Portfolio
         </v-card-title>
         <v-card-text>
@@ -31,31 +31,38 @@
           <hr class="my-3">
           <br>
           <div class="">
-            <h3 class="orange darken-1 pa-3 ma-9 rounded">The Companies & the Academies That I worked and Studied with : </h3>
-            <v-carousel
-                cycle
-                width="300"
-                height="200"
-                hide-delimiter-background
-                show-arrows-on-hover
-                hide-delimiters
-                class="mx-auto"
-                contain
-                >
-              <v-carousel-item
-                v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-                reverse-transition="fade-transition"
-                transition="fade-transition"
-                contain
-                center
-                width="300"
-                height="200"
-                class="mx-auto"
-              >
-              </v-carousel-item>
-            </v-carousel>
+            <v-card  justify="center" align="center" class="mx-auto pb-6 text-center">
+              <v-card-text width="50" center class="mx-auto center">
+                <h3  class="orange darken-1 pa-2 my-2 mx-auto rounded">The Companies & the Academies That I worked and Studied with : </h3>
+              </v-card-text>
+              <v-card-action>
+                <v-carousel
+                  cycle
+                  width="300"
+                  height="200"
+                  hide-delimiter-background
+                  show-arrows-on-hover
+                  hide-delimiters
+                  class="mx-auto"
+                  contain
+                  >
+                  <v-carousel-item
+                    v-for="(item,i) in items"
+                    :key="i"
+                    :src="item.src"
+                    reverse-transition="fade-transition"
+                    transition="fade-transition"
+                    contain
+                    center
+                    width="300"
+                    height="200"
+                    class="mx-auto"
+                  >
+                  </v-carousel-item>
+                </v-carousel>
+              </v-card-action>
+
+            </v-card>
           </div>
           <br>
           <hr class="my-3">

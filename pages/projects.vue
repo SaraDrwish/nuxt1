@@ -1,13 +1,13 @@
 <template>
-  <div class="orange my-8 pa-8 rounded">
-    <v-card class="pa-4 ">
+  <div class="orange my-6 py-6 px-4 rounded">
+    <v-card class="pa-2">
       <v-card-title class="headline">My Projects
       </v-card-title>
       <v-card-text>
        <div class="pa-2 ma-2"  >
         <v-row>
 <!-- ............................................................................................ -->
- <v-col cols="12" md="4">
+ <v-col cols="12" md="4" width="full">
   <v-card rounded class="orange darken-2" >
     <a target="_blank" href="https://saradrwish.github.io/task19/">
     <v-img
@@ -24,9 +24,9 @@
     <v-card-text>
       <div>CSS - HTML </div>
     </v-card-text>
-    <v-card-actions class="pb-9">
-      <a class="mx-2" target="_blank" href="https://github.com/SaraDrwish/task19"><v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
-      <a class="mx-2" target="_blank" href=""><v-btn to='#' class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+    <v-card-actions cols="4" md="4"  class="pb-9 "  >
+      <a class="mx-2" cols="12" md="4"  target="_blank" href="https://github.com/SaraDrwish/task19"><v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
+      <a class="mx-2" cols="12" md="4"  target="_blank" href=""><v-btn to='#' class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
     </v-card-actions>
   </v-card>
     </v-col>
@@ -48,10 +48,10 @@
     <v-card-text>
       <div>HTML - CSS - Bootstrap - JS </div>
     </v-card-text>
-    <v-card-actions class="pb-9">
+    <v-card-actions class="pb-9 mx-auto"  justify="center" align="center">
       <a class="mx-2" target="_blank" href="https://github.com/SaraDrwish/temp1_bootstrab_plant">
       <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
-      <v-btn to='#' class="orange lighten-4" color="orange" text="Explore">Explore</v-btn>
+      <v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn>
     </v-card-actions>
     </v-card>
   </v-col>
@@ -663,19 +663,24 @@
             Watch 24 Project Video
           </v-card-title>
           <v-card-text>
-              <video
+              <!-- <video
                 :src='require("../assets/vedios/travelVueProject.mp4")'
                 autoplay
                 muted
                 loop
-                playsinline
+                color="orange"
                 width="800"
                 height="500"
                 controls
-                rounded class="orange pa-2 my-2 mx-auto center "
-              >
+                class="orange pa-2 my-2 mx-auto center grey--text "
+                >
                 Your browser does not support the video 24 tag.
-              </video>
+               </video> -->
+              <!-- <iframe src="https://drive.google.com/file/d/1sProW4adZ-m-83wDzvXbFsd4Yf-OfCLl/view?usp=drive_link"
+               frameborder="0" width="800" height="500" allow="autoplay" ></iframe> -->
+              <v-card-actions>
+                <iframe rounded class="orange pa-2 my-2 mx-auto center " src="https://drive.google.com/file/d/18mMZEu9SS3g-zeg_jQHNOLn4RLFXYwLT/view?usp=sharing" height="465" width="504" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
+              </v-card-actions>
 
           </v-card-text>
         </v-card>
@@ -725,7 +730,7 @@
           </v-card-title>
           <v-card-actions>
              <!-- <video   :src='require("../assets/vedios/nuxt1.mp4")'></video> -->
-             <video
+             <!-- <video
                 :src='require("../assets/vedios/nuxt1.mp4")'
                 autoplay
                 muted
@@ -739,7 +744,8 @@
                 class="orange pa-2 my-2 mx-auto center "
               >
                 Your browser does not support the video 25 tag.
-              </video>
+              </video> -->
+              <iframe width="800" height="500" allow="autoplay" src="https://drive.google.com/file/d/1mqOpK-BvTbCRZoAjOV4CBEBG3Nq3XMUh/view?usp=drive_link" frameborder="0"></iframe>
           </v-card-actions>
         </v-card>
       </v-dialog>
@@ -782,7 +788,7 @@
           </v-card-title>
           <v-card-actions>
             <!-- <video href="../assets/vedios/vueNuxt2.mp4" class="pa-2 ma-2 orange"></video> -->
-            <video
+            <!-- <video
                 :src='require("../assets/vedios/vueNuxt2.mp4")'
                 autoplay
                 muted
@@ -796,7 +802,8 @@
                 class="orange pa-2 my-2 mx-auto center "
               >
                 Your browser does not support the video 26 tag.
-              </video>
+              </video> -->
+              <iframe width="800" height="500" allow="autoplay" src="https://drive.google.com/file/d/15LKs01nntI3B-qhpe1ZXofkEofk1vJCP/view?usp=sharing" frameborder="0"></iframe>
           </v-card-actions>
         </v-card>
       </v-dialog>
@@ -976,6 +983,38 @@
       <a class="mx-2" target="_blank" href="">
       <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
       <a href="#"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+
+      <!-- ///// -->
+       <!-- <v-col
+          cols="12"
+          sm="6"
+        >
+        <div class="text-center">
+          <div class="my-2">
+            <v-btn
+              small
+              color="secondary"
+              dark
+            >
+                Extra small Button
+              </v-btn>
+            </div>
+          </div>
+        <div class="text-center">
+          <div class="my-2">
+            <v-btn
+              large
+              color="secondary"
+              dark
+            >
+                Extra small Button
+              </v-btn>
+            </div>
+          </div>
+        </v-col> -->
+
+       <!-- ///// -->
+
     </v-card-actions>
     </v-card>
   </v-col>

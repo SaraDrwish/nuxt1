@@ -4,7 +4,7 @@
       <v-card-title class="headline">Contact
       </v-card-title>
       <v-card-text>
-  <v-chip-group
+        <v-chip-group
             v-model="selection"
             class="orange--text"
             active-class="orange white--text"
