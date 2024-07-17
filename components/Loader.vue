@@ -37,14 +37,14 @@ export default {
 }
 </script>
 
-<style scoped>
+<style  >
 .loader {
   position: fixed;
   top:4rem;
   left:4rem;
   width: 100%;
   height: 100%;
-  background: rgba(255, 182, 99, 0.9);
+  background: rgba(255, 182, 99, 0.9) !important;
   display: flex;
   justify-content: center;
   align-items: center;

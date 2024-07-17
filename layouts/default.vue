@@ -11,6 +11,7 @@
       :clipped="clipped"
       fixed
       app
+      height="100000"
     >
       <v-list>
         <v-list-item

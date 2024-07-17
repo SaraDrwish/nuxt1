@@ -1,10 +1,9 @@
 import colors from 'vuetify/es5/util/colors'
 
 
-
 export default {
   head: {
-    titleTemplate: "%s - web-sara",
+    titleTemplate: "%s",
     title: "web-sara",
     htmlAttrs: {
       lang: "en",
@@ -15,19 +14,16 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
     ],
-    link: [{ rel: "image", type: "image", href: "./static/logo0.png" }],
+    link:
+      [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
   },
 
   css: ["./assets/main.scss"],
   plugins: [],
   components: true,
-  buildModules: [
-    "@nuxtjs/vuetify",
-  ],
+  buildModules: ["@nuxtjs/vuetify"],
 
-  modules: [
-    "@nuxtjs/axios",
-  ],
+  modules: ["@nuxtjs/axios"],
   router: {
     base: "/nuxt1/",
   },
