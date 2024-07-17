@@ -804,7 +804,9 @@
                 Your browser does not support the video 26 tag.
               </video> -->
               <!-- <iframe width="800" height="500" allow="autoplay" href="https://drive.google.com/file/d/15LKs01nntI3B-qhpe1ZXofkEofk1vJCP/view?usp=sharing" frameborder="0"></iframe> -->
-              <a href="https://drive.google.com/file/d/15LKs01nntI3B-qhpe1ZXofkEofk1vJCP/view?usp=sharing"  width="800" height="500" allow="autoplay" ></a>
+              <a target="_blank" href="https://drive.google.com/file/d/15LKs01nntI3B-qhpe1ZXofkEofk1vJCP/view?usp=sharing"  width="800" height="500" allow="autoplay" >
+                <iframe width="800" height="500" allow="autoplay" href="https://drive.google.com/file/d/15LKs01nntI3B-qhpe1ZXofkEofk1vJCP/view?usp=sharing" frameborder="0"></iframe>
+              </a>
             </v-card-actions>
         </v-card>
       </v-dialog>

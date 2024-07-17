@@ -17,7 +17,7 @@ export default {
     link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
   },
 
-  css: ["./assets/main.scss"],
+  css: ["~/assets/scss/main.scss"],
   plugins: [],
   components: true,
   buildModules: ["@nuxtjs/vuetify"],
@@ -32,7 +32,7 @@ export default {
   },
 
   vuetify: {
-    customVariables: ["~/assets/variables.scss"],
+    customVariables: ["~/assets/scss/_variables.scss"],
     theme: {
       dark: true,
       themes: {
@@ -48,8 +48,14 @@ export default {
       },
     },
   },
-
-  build: {},
+  build: {
+    loaders: {
+      scss: {
+        implementation: require("sass"),
+      },
+    },
+  },
+  // build: {},
 };
 
 // const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {

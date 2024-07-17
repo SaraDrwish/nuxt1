@@ -11,7 +11,7 @@
       </div> -->
     <!-- ////////////////////////////// -->
     <v-col cols="12" sm="8" md="12">
-    <div class="orange my-6 pa-4 light-5 ">
+    <div class="orange my-7 pa-4 light-5 ">
       <!-- <v-card class="logo orange pa-4 d-flex justify-center">
       </v-card> -->
       <v-card class="pa-4 ">
@@ -31,7 +31,7 @@
           <hr class="my-3">
           <br>
           <div class="">
-            <v-card  justify="center" align="center" class="mx-auto pb-6 text-center">
+            <v-card  justify="center" align="center" class="mx-auto py-6 text-center">
               <v-card-text width="50" center class="mx-auto center">
                 <h3  class="orange darken-1 pa-2 my-2 mx-auto rounded">The Companies & the Academies That I worked and Studied with : </h3>
               </v-card-text>
