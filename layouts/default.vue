@@ -27,7 +27,7 @@
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <a href="/"><v-list-item-title>{{ item.title }}</v-list-item-title></a>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -60,7 +60,7 @@
           class="grey lighten-3 mx-2 px-2 ">
         <img  :src='require(`../assets/img/LOGO.png`)'>
       </v-avatar>
-      <v-toolbar-title class="mx-2 ">{{ title }}</v-toolbar-title>
+      <a href="/"><v-toolbar-title class="mx-2 ">{{ title }}</v-toolbar-title></a>
 
     </v-app-bar>
     <v-main>
