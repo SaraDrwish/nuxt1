@@ -62,7 +62,7 @@
           ></v-progress-linear>
 
           Vuetify
-           <v-progress-linear
+          <v-progress-linear
             color="light-green darken-1"
             height="6"
             value="70"
@@ -103,6 +103,24 @@
             height="6"
             striped
             color="pink"
+            class="my-5"
+          ></v-progress-linear>
+
+          Github
+          <v-progress-linear
+            value="80"
+            height="6"
+            striped
+            color="blue-grey"
+            class="my-5"
+          ></v-progress-linear>
+
+          GitLab
+          <v-progress-linear
+            value="60"
+            height="6"
+            striped
+            color="yellow"
             class="my-5"
           ></v-progress-linear>
 

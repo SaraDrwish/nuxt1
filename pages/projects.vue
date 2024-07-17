@@ -658,13 +658,13 @@
   <!-- ............................................................................................ -->
 <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
 
-
   <v-row>
 <!-- ............................................................................................ -->
  <v-col cols="12" md="4">
   <v-card  >
-    <a target="_blank" href=" ">
+    <a target="_blank" href="https://gitlab.com/it.saradarwish/nuxttask1">
     <v-img
+      :src="require('../assets/img/nuxt1.png')"
       class="align-end text-white"
       height="200"
       cover
@@ -675,10 +675,10 @@
       Number 25
     </v-card-subtitle>
     <v-card-text>
-      <div>CSS - HTML - JS - Vue js</div>
+      <div>SCSS - HTML - JS - Vue js - nuxt 2 - vuetify 2 - axios - auth </div>
     </v-card-text>
     <v-card-actions class="pb-9">
-      <a class="mx-2" target="_blank" href=" "><v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
+      <a class="mx-2" target="_blank" href="https://gitlab.com/it.saradarwish/nuxttask1"><v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
       <a class="mx-2" target="_blank" href="#"><v-btn to='#' class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
     </v-card-actions>
   </v-card>
@@ -686,9 +686,10 @@
 <!-- ............................................................................................ -->
 <v-col cols="12" md="4">
   <v-card  >
-    <a href=" " target="_blank">
+    <a href="https://gitlab.com/it.saradarwish/gitflow-task5-vuetify-v1" target="_blank">
     <v-img
       class="align-end text-white"
+      :src="require('../assets/img/dashVuenuxt2.png')"
       height="200"
       cover
     >
@@ -698,12 +699,12 @@
       Number 26
     </v-card-subtitle>
     <v-card-text>
-      <div>HTML - CSS - JS - Vue js</div>
+      <div>HTML - CSS - JS - Vue js - Nuxt js 2</div>
     </v-card-text>
     <v-card-actions class="pb-9">
-      <a class="mx-2" target="_blank" href=" ">
+      <a class="mx-2" target="_blank" href="https://gitlab.com/it.saradarwish/gitflow-task5-vuetify-v1">
       <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
-      <v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn>
+      <a href="../assets/vedios/vueNuxt2.mp4"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
     </v-card-actions>
     </v-card>
   </v-col>
@@ -714,6 +715,7 @@
     <v-img
       class="align-end text-white"
       height="200"
+      :src="require('../assets/img/smallStaticVueSite.png')"
       cover
     >
       <v-card-title class="grey darken-3 orange--text pa-2">Template 27 </v-card-title>
@@ -725,9 +727,89 @@
       <div>HTML - CSS - JS - Vue js </div>
     </v-card-text>
     <v-card-actions class="pb-9">
-      <a class="mx-2" href="https://github.com/SaraDrwish/algoriza-internship-FE204" target="_blank">
+      <a class="mx-2" href=" " target="_blank">
         <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
-      <a class="ml-2" target="_blank" href="../assets/vedios/travelVueProject.mp4"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+      <a class="ml-2" target="_blank" href="#"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+    </v-card-actions>
+  </v-card>
+  </v-col>
+  </v-row>
+
+  <!-- ............................................................................................ -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <v-row>
+<!-- ............................................................................................ -->
+ <v-col cols="12" md="4">
+  <v-card  >
+    <a target="_blank" href="https://incomparable-manatee-a1580d.netlify.app/">
+    <v-img
+      :src="require('../assets/img/portfolioLast2.png')"
+      class="align-end text-white"
+      height="200"
+      cover
+    >
+      <v-card-title  class="grey darken-3 orange--text pa-2" >Template  28</v-card-title>
+    </v-img></a>
+    <v-card-subtitle class="pt-4">
+      Number 28
+    </v-card-subtitle>
+    <v-card-text>
+      <div>css - HTML - JS - React js</div>
+    </v-card-text>
+    <v-card-actions class="pb-9">
+      <a class="mx-2" target="_blank" href=" "><v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
+      <a class="mx-2" target="_blank" href="#"><v-btn to='#' class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+    </v-card-actions>
+  </v-card>
+    </v-col>
+<!-- ............................................................................................ -->
+<v-col cols="12" md="4">
+  <v-card  >
+    <a href="https://gitlab.com/it.saradarwish/gitflow-task5-vuetify-v1" target="_blank">
+    <v-img
+      class="align-end text-white"
+      :src="require('../assets/img/dashVuenuxt2.png')"
+      height="200"
+      cover
+    >
+      <v-card-title  class="grey darken-3 orange--text pa-2" >Template 26 </v-card-title>
+    </v-img></a>
+    <v-card-subtitle class="pt-4">
+      Number 26
+    </v-card-subtitle>
+    <v-card-text>
+      <div>HTML - CSS - JS - Vue js - Nuxt js 2</div>
+    </v-card-text>
+    <v-card-actions class="pb-9">
+      <a class="mx-2" target="_blank" href="https://gitlab.com/it.saradarwish/gitflow-task5-vuetify-v1">
+      <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
+      <a href="../assets/vedios/vueNuxt2.mp4"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
+    </v-card-actions>
+    </v-card>
+  </v-col>
+<!-- ............................................................................................ -->
+<v-col cols="12" md="4" >
+  <v-card  >
+    <a href="" target="_blank">
+    <v-img
+      class="align-end text-white"
+      height="200"
+      :src="require('../assets/img/smallStaticVueSite.png')"
+      cover
+    >
+      <v-card-title class="grey darken-3 orange--text pa-2">Template 27 </v-card-title>
+    </v-img></a>
+    <v-card-subtitle class="pt-4">
+      Number 27
+    </v-card-subtitle>
+    <v-card-text>
+      <div>HTML - CSS - JS - Vue js </div>
+    </v-card-text>
+    <v-card-actions class="pb-9">
+      <a class="mx-2" href=" " target="_blank">
+        <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn></a>
+      <a class="ml-2" target="_blank" href="#"><v-btn class="orange lighten-4" color="orange" text="Explore">Explore</v-btn></a>
     </v-card-actions>
   </v-card>
   </v-col>

@@ -21,6 +21,7 @@
           <hr class="my-3">
           <br>
           <div class="">
+            <h3 class="orange darken-1 pa-3 ma-9 rounded">The Companies & the Academies That I worked and Studied with : </h3>
             <v-carousel
                 cycle
                 width="300"
@@ -29,6 +30,7 @@
                 show-arrows-on-hover
                 hide-delimiters
                 class="mx-auto"
+                contain
                >
               <v-carousel-item
                 v-for="(item,i) in items"
@@ -36,7 +38,7 @@
                 :src="item.src"
                 reverse-transition="fade-transition"
                 transition="fade-transition"
-                cover
+                contain
                 center
                 width="300"
                 height="200"
