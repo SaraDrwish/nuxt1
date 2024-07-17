@@ -1,9 +1,9 @@
 <template>
   <v-app dark>
     <!-- //////// -->
-    <header>
+    <!-- <header>
       <img src="../static/logo0.png" alt="Site Logo" class="site-logo">
-    </header>
+    </header> -->
     <!-- /////// -->
     <v-navigation-drawer
       v-model="drawer"
@@ -64,6 +64,7 @@
     </v-app-bar>
     <v-main>
       <v-container>
+        <Loader/>
         <Nuxt />
       </v-container>
     </v-main>
@@ -79,8 +80,33 @@
 </template>
 
 <script>
+import Loader from '~/components/Loader.vue';
+
 export default {
   name: 'DefaultLayout',
+  components: {
+    Loader
+  },
+  // async beforeCreate() {
+  //   this.$root.$emit('start-loading');
+  // },
+  // async created() {
+  //   this.$root.$emit('stop-loading');
+  // },
+   async beforeCreate() {
+    this.$root.$emit('start-loading');
+  },
+  async created() {
+    this.$root.$emit('stop-loading');
+  },
+  watch: {
+    '$route'(to, from) {
+      this.$root.$emit('start-loading');
+      this.$nextTick(() => {
+        this.$root.$emit('stop-loading');
+      });
+    }
+  },
   data () {
     return {
       clipped: false,
