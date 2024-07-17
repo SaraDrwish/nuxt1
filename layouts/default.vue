@@ -27,7 +27,7 @@
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <a href="/"><v-list-item-title>{{ item.title }}</v-list-item-title></a>
           </v-list-item-content>
         </v-list-item>
       </v-list>
