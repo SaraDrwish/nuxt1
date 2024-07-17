@@ -1,9 +1,8 @@
 import colors from 'vuetify/es5/util/colors'
 
-
 export default {
   head: {
-    titleTemplate: "%s - Sara's Web",
+    titleTemplate: " Sara's Web - %s - 2024",
     title: "web-sara",
     htmlAttrs: {
       lang: "en",
@@ -24,7 +23,7 @@ export default {
 
   modules: ["@nuxtjs/axios"],
   router: {
-    base: "/nuxt1/",
+    base: "nuxt1",
   },
 
   axios: {
