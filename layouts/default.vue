@@ -60,7 +60,7 @@
           class="grey lighten-3 mx-2 px-2 ">
         <img  :src='require(`../assets/img/LOGO.png`)'>
       </v-avatar>
-      <a href="/"><v-toolbar-title class="mx-2 ">{{ title }}</v-toolbar-title></a>
+      <a class="white--text" href="/"><v-toolbar-title class="mx-2 ">{{ title }}</v-toolbar-title></a>
 
     </v-app-bar>
     <v-main>
