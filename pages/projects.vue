@@ -12,18 +12,17 @@
       class="grey--text grey darken-3 rounded pa-3 ma-5"
       append-icon="mdi-magnify"
       prepend-icon="mdi-heart"
-      @change="searchProject"
-    ></v-text-field>
+     ></v-text-field>
 
 <!-- /// -->
 
-      <!-- <v-row> -->
-        <div class="red pa-2" v-for="proj in projects" :key="proj.id" >
-          <!-- <v-col> -->
-            <AllProjectsCompo :proj="proj"></AllProjectsCompo>
-          <!-- </v-col> -->
-        </div>
-      <!-- </v-row> -->
+  <!-- <v-row> -->
+    <!-- <v-col cols="12" md="4"> -->
+      <div class="pink lighten-2 ma-2 pa-2" v-for="proj in searchProject" :key="proj.id" >
+        <AllProjectsCompo :proj="proj"  ></AllProjectsCompo>
+      </div>
+    <!-- </v-col> -->
+  <!-- </v-row> -->
 
 <!-- /// -->
         <br>
@@ -70,7 +69,7 @@ export default {
       {
         id: 2,
         name: 'poroj2',
-        tech: "html , css,vue js ",
+        techno: "html , css,vue js ",
         github: "",
         image: '',
         link: '',
@@ -79,7 +78,7 @@ export default {
       {
         id: 3,
         name: 'poroj 3',
-        tech: " vue js , nuxt js , vuetify ",
+        techno: " vue js , nuxt js , vuetify ",
         github: "",
         image: '',
         link: '',
@@ -88,10 +87,10 @@ export default {
     ]
     }
   },
-  // computed: {
-  //   searchProject: function () {
-  //     return
-  //   }
-  // }
+  computed: {
+    searchProject() {
+      return this.projects.filter(proj => proj.techno.toLocaleLowerCase().includes(this.search.toLocaleLowerCase()))
+    }
+  }
 }
 </script>
