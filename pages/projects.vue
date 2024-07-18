@@ -265,19 +265,76 @@
           },
           {
             id:24 ,
-            title:"Template  24",
-            techno: "HTML - CSS - JS  ",
-            github: "https://github.com/SaraDrwish/myportofolio2022march",
-            image: 'https://saradrwish.github.io/myportofolio2022march/',
-            explore: ' ',
-            src:'my23port.png',
+            title:"Template Travel ",
+            techno: "HTML - CSS - JS - Vue js 3 - Tailwindcss - api",
+            github: "https://github.com/SaraDrwish/algoriza-internship-FE204",
+            image: 'https://github.com/SaraDrwish/algoriza-internship-FE204',
+            explore:"https://drive.google.com/file/d/18mMZEu9SS3g-zeg_jQHNOLn4RLFXYwLT/view?usp=sharing",
+            src:'travel2.png',
           },
-
-
-
-
-
-
+          {
+            id:25 ,
+            title:"Template  25",
+            techno: "SCSS - HTML - JS - Vue js 2 - nuxt 2 - vuetify 2 - axios - auth ",
+            github: "https://gitlab.com/it.saradarwish/nuxttask1",
+            image: 'https://gitlab.com/it.saradarwish/nuxttask1',
+            explore:'https://drive.google.com/file/d/1mqOpK-BvTbCRZoAjOV4CBEBG3Nq3XMUh/view?usp=drive_link',
+            src: 'nuxt1.png',
+          },
+          {
+            id:26 ,
+            title:"Template Id Site",
+            techno: "Vue js - Tailwind css ",
+            github: "https://github.com/SaraDrwish/sara-s-task1-1-vueJs",
+            image: 'https://www.linkedin.com/posts/sara-darwish-d_vuejs-vue-js-activity-7168486257377828865-mlsy?utm_source=share&utm_medium=member_desktop',
+            explore:'https://drive.google.com/file/d/15LKs01nntI3B-qhpe1ZXofkEofk1vJCP/view?usp=sharing',
+            src: 'smallStaticVueSite.png',
+          },
+          {
+            id:27 ,
+            title:"Template Portfolio latest",
+            techno: "css - HTML - JS - React js",
+            github: " ",
+            image:"https://incomparable-manatee-a1580d.netlify.app/",
+            explore:" ",
+            src: "portfolioLast2.png",
+          },
+          {
+            id:28 ,
+            title:"Template CRUD Note",
+            techno: "CSS - HTML - JS - Vue js",
+            github: " ",
+            image:" https://github.com/SaraDrwish/SolutionPlusTasks1/tree/main/task4crud",
+            explore:" ",
+            src: "vueNote.png",
+          },
+          {
+            id:29 ,
+            title:"Template Todo app",
+            techno: "HTML - CSS - JS - Vue js",
+            github: "https://github.com/SaraDrwish/SolutionPlusTasks1/tree/main/crud-tsk4-todo",
+            image:"https://github.com/SaraDrwish/SolutionPlusTasks1/tree/main/crud-tsk4-todo",
+            explore:" ",
+            src: "todoVue.png",
+          },
+          {
+            id:30 ,
+            title:"Template Somoq",
+            techno: "WordPress",
+            github: " ",
+            image:"https://www.linkedin.com/posts/sara-darwish-d_wordpress-wordpress-project-activity-7168527384273534976-nmbF?utm_source=share&utm_medium=member_desktop",
+            explore:"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7168527361460711424",
+            src: "wordpress_somoq_jazeel.png",
+          },
+           {
+            id: 31 ,
+            title:"",
+            techno: "",
+            github: "",
+            image:"",
+            explore:"",
+            src: "",
+          },
 
         ]
       }
