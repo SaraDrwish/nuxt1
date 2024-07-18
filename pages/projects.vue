@@ -17,12 +17,19 @@
 <!-- /// -->
 
   <!-- <v-row> -->
-    <!-- <v-col cols="12" md="4"> -->
-      <div class="pink lighten-2 ma-2 pa-2" v-for="proj in searchProject" :key="proj.id" >
-        <AllProjectsCompo :proj="proj"  ></AllProjectsCompo>
+     <v-container fluid>
+      <v-row dense>
+        <v-col cols="12" md="4"
+          v-for="proj in searchProject" :key="proj.id"
+        >
+        <div class=" "  >
+        <AllProjectsCompo :proj="proj"  > </AllProjectsCompo>
       </div>
-    <!-- </v-col> -->
-  <!-- </v-row> -->
+
+      </v-col>
+      </v-row>
+      </v-container>
+
 
 <!-- /// -->
         <br>
@@ -105,7 +112,7 @@ export default {
       {
         id: 6,
         title:"name6 ",
-        techno: " CSS - HTML - JS - vue js ",
+        techno: " JS - vue js ",
         github: "https://github.com/SaraDrwish/SolutionPlusTasks1/tree/main/crud-tsk4-todo",
         image: 'https://github.com/SaraDrwish/SolutionPlusTasks1/tree/main/crud-tsk4-todo',
         explore: ' ',

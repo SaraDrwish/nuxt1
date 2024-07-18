@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="grey pa-2 ma-2"  >
+    <div class=" "  >
         <!-- ............................................................................................ -->
       <!-- <v-row> -->
         <!-- <v-col  cols="12" md="4" > -->
-          <v-card  rounded class="flex orange darken-2 pa-2 ma-2" >
+          <v-card  rounded class="flex orange darken-2 mt-2 pt-1 " >
             <a :href='proj.image' target="_blank">
             <v-img
             class="align-end text-white"
@@ -24,7 +24,7 @@
                 <a class="mx-2" :href='proj.github' target="_blank">
                   <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn>
                 </a>
-                 <v-dialog
+                <v-dialog
                   v-model="dialog4"
                   width="900"
                   >
@@ -44,7 +44,7 @@
               </v-dialog>
             </v-card-actions>
           </v-card>
-        <!-- </v-col> -->
+          <!-- /<v-col> -->
       <!-- </v-row> -->
     <!-- ............................................................................................ -->
     </div>
