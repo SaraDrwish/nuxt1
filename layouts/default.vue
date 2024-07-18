@@ -1,10 +1,5 @@
 <template>
   <v-app dark>
-    <!-- //////// -->
-    <!-- <header>
-      <img src="../static/logo0.png" alt="Site Logo" class="site-logo">
-    </header> -->
-    <!-- /////// -->
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -81,33 +76,8 @@
 </template>
 
 <script>
-//import Loader from '~/components/Loader.vue';
-
 export default {
   name: 'DefaultLayout',
-  components: {
-    //Loader
-  },
-  // async beforeCreate() {
-  //   this.$root.$emit('start-loading');
-  // },
-  // async created() {
-  //   this.$root.$emit('stop-loading');
-  // },
-  //  async beforeCreate() {
-  //   this.$root.$emit('start-loading');
-  // },
-  // async created() {
-  //   this.$root.$emit('stop-loading');
-  // },
-  // watch: {
-  //   '$route'(to, from) {
-  //     this.$root.$emit('start-loading');
-  //     this.$nextTick(() => {
-  //       this.$root.$emit('stop-loading');
-  //     });
-  //   }
-  // },
   data () {
     return {
       clipped: false,
@@ -167,7 +137,15 @@ export default {
   pointer-events: none;
   z-index: 1000;
   border-radius: 50%;
-  background-color: rgb(190, 190, 190) ;
+  background-color: rgba(190, 190, 190, 0.90) ;
   /* padding: 0.5rem; */
+  /* transition: all 0.1s ease-in; */
+  mix-blend-mode: difference;
+  pointer-events: none;
+  /* transform: translate(-60%,-60%); */
+
+}
+button:hover .mouse-image , .v-btn:hover .mouse-image ,  a:hover ~ .mouse-image{
+  transform: scale(4);
 }
 </style>
