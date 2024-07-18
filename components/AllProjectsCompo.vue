@@ -5,11 +5,11 @@
       <!-- <v-row> -->
         <!-- <v-col  cols="12" md="4" > -->
           <v-card  rounded class="flex orange darken-2 pa-2 ma-2" >
-            <a href="https://www.linkedin.com/posts/sara-darwish-d_wordpress-wordpress-project-activity-7168527384273534976-nmbF?utm_source=share&utm_medium=member_desktop" target="_blank">
+            <a :href='proj.image' target="_blank">
             <v-img
             class="align-end text-white"
             height="200"
-            :src="require('../assets/img/wordpress_somoq_jazeel.png')"
+            :src="require(`../assets/img/${proj.src}`)"
             cover>
             <v-card-title class="grey darken-3 orange--text pa-2">{{proj.title}}</v-card-title>
             </v-img></a>
@@ -20,22 +20,28 @@
             <div>{{proj.techno}}</div>
             </v-card-text>
             <v-card-actions class="pb-9">
-            <v-dialog
-            v-model="dialog4"
-            width="900"
-            >
-            <template v-slot:activator="{ on, attrs }">
-            <v-btn v-bind="attrs" v-on="on" class="orange lighten-4" color="orange" text="Explore">Explore</v-btn>
-            </template>
-            <v-card>
-            <v-card-title class="text-h5 orange lighten-2">
-            Watch 31 Project Video
-            </v-card-title>
-            <v-card-actions>
-            <iframe rounded class="orange pa-2 my-2 mx-auto center " src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7168527361460711424" height="465" width="504" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
-            </v-card-actions>
-            </v-card>
-            </v-dialog>
+
+                <a class="mx-2" :href='proj.github' target="_blank">
+                  <v-btn class="grey darken-3 orange--text" text="Github">Github</v-btn>
+                </a>
+                 <v-dialog
+                  v-model="dialog4"
+                  width="900"
+                  >
+                  <template v-slot:activator="{ on, attrs }">
+                    <v-btn v-bind="attrs" v-on="on" class="orange lighten-4" color="orange" text="Explore">Explore</v-btn>
+                  </template>
+                  <v-card>
+                    <v-card-title class="text-h5 orange lighten-2">
+                      Watch {{proj.id}} Project Video
+                    </v-card-title>
+                    <v-card-actions>
+                    <iframe rounded class="orange pa-2 my-2 mx-auto center "
+                    :src='proj.explore'
+                    height="465" width="504" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
+                    </v-card-actions>
+                </v-card>
+              </v-dialog>
             </v-card-actions>
           </v-card>
         <!-- </v-col> -->

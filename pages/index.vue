@@ -1,19 +1,7 @@
 <template>
   <v-row justify="center" align="center">
-    <!-- ////////////////////////////// -->
-      <!-- <div>
-        <img
-          ref="mouseImage"
-          src="../assets/img/LOGO.png"
-          alt="Mouse Image"
-          class="orange pa-1 mouse-image"
-        >
-      </div> -->
-    <!-- ////////////////////////////// -->
     <v-col cols="12" sm="8" md="12">
     <div class="orange my-7 pa-4 light-5 ">
-      <!-- <v-card class="logo orange pa-4 d-flex justify-center">
-      </v-card> -->
       <v-card class="pa-4 ">
         <v-card-title class="headline">Sara's Portfolio
         </v-card-title>
