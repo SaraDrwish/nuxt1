@@ -8,8 +8,9 @@
             <v-text-field
               v-model="search"
               required
+              label="Search by Technology you want !"
               color="orange"
-              class="orange--text grey darken-3 rounded px-5 ma-2"
+              class="orange--text grey darken-3 rounded px-5 ma-2 pt-5"
               append-icon="mdi-magnify"
               prepend-icon="mdi-heart"
             ></v-text-field>
