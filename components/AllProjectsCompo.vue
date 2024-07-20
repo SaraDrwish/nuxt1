@@ -36,6 +36,10 @@
                 <iframe rounded class="orange pa-2 my-2 mx-auto center "
                 :src='proj.explore'
                 height="465" width="504" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
+                <video autoplay loop muted >
+                  <!-- <source src="../assets/vedios/vueNuxt2.mp4" type="video/mp4"> -->
+                  <source :src='proj.explore' type="video/mp4">
+                </video>
                 </v-card-actions>
             </v-card>
           </v-dialog>

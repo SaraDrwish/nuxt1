@@ -772,10 +772,12 @@
                   Watch 26 Project Video
                 </v-card-title>
                 <v-card-actions>
-
-                    <a target="_blank" href="https://drive.google.com/file/d/15LKs01nntI3B-qhpe1ZXofkEofk1vJCP/view?usp=sharing"  width="800" height="500" allow="autoplay" >
+                    <!-- <a target="_blank" href="https://drive.google.com/file/d/15LKs01nntI3B-qhpe1ZXofkEofk1vJCP/view?usp=sharing"  width="800" height="500" allow="autoplay" >
                       <iframe width="800" height="500" allow="autoplay" href="https://drive.google.com/file/d/15LKs01nntI3B-qhpe1ZXofkEofk1vJCP/view?usp=sharing" frameborder="0"></iframe>
-                    </a>
+                    </a> -->
+                    <video autoplay loop muted >
+                      <source src="../assets/vedios/vueNuxt2.mp4" type="video/mp4">
+                    </video>
                   </v-card-actions>
               </v-card>
             </v-dialog>

@@ -2,33 +2,44 @@
   <div class="orange my-6 py-6 px-4 rounded">
     <v-card class="pa-2">
       <v-card-title class="headline">My Projects</v-card-title>
-    <v-card-text>
 
-    <v-text-field
-      v-model="search"
-      required
-      color="orange"
-      class="orange--text grey darken-3 rounded px-5 ma-2"
-      append-icon="mdi-magnify"
-      prepend-icon="mdi-heart"
-    ></v-text-field>
 
-    <v-container >
-      <v-row dense>
-        <v-col cols="12" md="4"
-        v-for="proj in searchProject" :key="proj.id"
-        >
-          <div class=" "  >
-            <AllProjectsCompo :proj="proj"  > </AllProjectsCompo>
-          </div>
-        </v-col>
-      </v-row>
-    </v-container>
-    <br>
-    <hr class="my-3">
-    <br>
-    </v-card-text>
-    <v-card-actions>
+          <v-card-text>
+            <v-text-field
+              v-model="search"
+              required
+              color="orange"
+              class="orange--text grey darken-3 rounded px-5 ma-2"
+              append-icon="mdi-magnify"
+              prepend-icon="mdi-heart"
+            ></v-text-field>
+            <v-card-subtitle class="text-uppercase pa-2 mx-3" >
+              number of projects is :
+              <v-btn
+              disabled
+              color="orange"
+              class="mx-3 orange--text darken-3 rounded ">
+              {{ searchProject.length}}
+              </v-btn>
+            </v-card-subtitle>
+
+            <v-container >
+              <v-row dense>
+                <v-col cols="12" md="4"
+                v-for="proj in searchProject" :key="proj.id"
+                >
+                  <div class=" "  >
+                    <AllProjectsCompo :proj="proj"  > </AllProjectsCompo>
+                  </div>
+                </v-col>
+
+              </v-row>
+            </v-container>
+            <br>
+            <hr class="my-3">
+            <br>
+            </v-card-text>
+      <v-card-actions>
     <v-spacer />
     <v-btn
       color="grey lighten-2"
@@ -55,6 +66,7 @@
         dialog3:false,
         dialog4: false,
         search: '',
+        count:[ ],
         projects: [
           {
             id: 1,
@@ -325,16 +337,17 @@
             image:"https://www.linkedin.com/posts/sara-darwish-d_wordpress-wordpress-project-activity-7168527384273534976-nmbF?utm_source=share&utm_medium=member_desktop",
             explore:"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7168527361460711424",
             src: "wordpress_somoq_jazeel.png",
-          },
-           {
-            id: 31 ,
-            title:"",
-            techno: "",
-            github: "",
-            image:"",
-            explore:"",
-            src: "",
-          },
+          }
+          // ,
+          //  {
+          //   id: 31 ,
+          //   title:"",
+          //   techno: "",
+          //   github: "",
+          //   image:"",
+          //   explore:"",
+          //   src: "",
+          // },
 
         ]
       }

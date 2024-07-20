@@ -43,14 +43,7 @@
       fixed
       app
     >
-
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <!-- <v-btn
-        icon
-        @click.stop="miniVariant = !miniVariant"
-      >
-        <v-icon class="orange--text">mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn> -->
       <v-avatar
           class="grey lighten-3 mx-2 px-2 ">
         <img  :src='require(`../assets/img/LOGO.png`)'>
@@ -60,7 +53,6 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <!-- <Loader/> -->
         <Nuxt />
       </v-container>
     </v-main>
@@ -129,7 +121,7 @@ export default {
 }
 </script>
 
-<style  >
+<style>
 .mouse-image {
   position: fixed;
   width: 50px;
@@ -138,12 +130,8 @@ export default {
   z-index: 1000;
   border-radius: 50%;
   background-color: rgba(190, 190, 190, 0.90) ;
-  /* padding: 0.5rem; */
-  /* transition: all 0.1s ease-in; */
   mix-blend-mode: difference;
   pointer-events: none;
-  /* transform: translate(-60%,-60%); */
-
 }
 button:hover .mouse-image , .v-btn:hover .mouse-image ,  a:hover ~ .mouse-image{
   transform: scale(4);
