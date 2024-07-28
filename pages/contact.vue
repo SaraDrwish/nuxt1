@@ -1,6 +1,15 @@
 <template>
-  <div class="orange pa-8 rounded">
-    <v-card class="  pa-4 ">
+
+  <div class="orange pa-2 rounded">
+    <v-card class="pa-4">
+      <v-img
+          :src='require("../assets/img/airplan.png")'
+          lazy-src="../assets/img/airplan.png"
+          class="rounded center"
+          gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+          rounded
+          max-height="350"
+          >
       <v-card-title class="headline">Contact
       </v-card-title>
       <v-card-text>
@@ -32,6 +41,8 @@
           Continue
         </v-btn>
       </v-card-actions>
+  </v-img>
+
     </v-card>
   </div>
 </template>

@@ -8,6 +8,7 @@
       app
       height="100000"
     >
+
       <v-list>
         <v-list-item
           v-for="(item, i) in items"
@@ -26,7 +27,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-    </v-navigation-drawer>
+     </v-navigation-drawer>
     <!-- ////////////////////////////// -->
       <div>
         <img
@@ -52,9 +53,15 @@
 
     </v-app-bar>
     <v-main>
-      <v-container>
-        <Nuxt />
-      </v-container>
+      <!-- <v-img
+        :src='require("../assets/img/aann.png")'
+        lazy-src="../assets/img/aann.png"
+        gradient="to top, rgba(0,0,0,.2), rgba(0,0,0,.2)"
+        > -->
+        <v-container>
+          <Nuxt />
+        </v-container>
+     <!-- </v-img> -->
     </v-main>
 
     <v-footer

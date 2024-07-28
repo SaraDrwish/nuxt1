@@ -18,10 +18,21 @@
           </div>
           <hr class="my-3">
           <br>
+
           <div class="">
+
             <v-card  justify="center" align="center" class="mx-auto py-6 text-center">
+              <v-img
+                :src='require("../assets/img/air-window.png")'
+                lazy-src="../assets/img/air-window.png"
+                class="rounded "
+                gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+                max-height="330"
+                rounded
+              >
               <v-card-text width="50" center class="mx-auto center">
-                <h3  class="orange darken-1 pa-2 my-2 mx-auto rounded">The Companies & the Academies That I worked and Studied with : </h3>
+                <h3  class="orange darken-1 pa-2 my-2 mx-auto rounded">
+                  The Companies & the Academies That I worked and Studied with : </h3>
               </v-card-text>
               <v-card-action>
                 <v-carousel
@@ -31,8 +42,9 @@
                   hide-delimiter-background
                   show-arrows-on-hover
                   hide-delimiters
-                  class="mx-auto"
+                  class="mx-auto rounded"
                   contain
+                  rounded
                   >
                   <v-carousel-item
                     v-for="(item,i) in items"
@@ -44,13 +56,15 @@
                     center
                     width="300"
                     height="200"
-                    class="mx-auto"
+                    class="mx-auto rounded"
+                    rounded
                   >
                   </v-carousel-item>
                 </v-carousel>
               </v-card-action>
-
+             </v-img>
             </v-card>
+
           </div>
           <br>
           <hr class="my-3">
@@ -106,6 +120,7 @@
           Continue
         </v-btn>
         </v-card-actions>
+
       </v-card>
     </div>
     </v-col>

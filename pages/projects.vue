@@ -1,8 +1,8 @@
 <template>
-  <div class="orange my-6 py-6 px-4 rounded">
+  <div class="orange my-6 py-4 px-2 rounded">
     <v-card class="pa-2">
-      <v-card-title class="headline">My Projects</v-card-title>
 
+      <v-card-title class="headline">My Projects</v-card-title>
 
           <v-card-text>
             <v-text-field

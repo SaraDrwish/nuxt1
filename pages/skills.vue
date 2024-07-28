@@ -1,12 +1,17 @@
 <template>
-  <div class="orange pa-8 rounded">
+  <div class="orange pa-4 my-4 rounded">
     <v-card class="pa-4 ">
+      <!-- <v-img
+        :src='require("../assets/img/aann.png")'
+        lazy-src="../assets/img/aann.png"
+        gradient="to right, rgba(0,0,0,.2), rgba(0,0,0,.8)"
+      > -->
       <v-card-title class="headline">My Skills
       </v-card-title>
       <v-card-text class="orange--text">
         <div class="px-12 mx-12">
           HTML
-           <v-progress-linear
+          <v-progress-linear
             value="95"
             height="6"
             striped
@@ -14,8 +19,8 @@
             class="my-5"
           ></v-progress-linear>
 
-           CSS
-           <v-progress-linear
+          CSS
+          <v-progress-linear
             height="6"
             value="92"
             striped
@@ -24,7 +29,7 @@
           ></v-progress-linear>
 
           JavaScript
-         <v-progress-linear
+          <v-progress-linear
             color="light-green darken-3"
             height="6"
             value="80"
@@ -138,6 +143,7 @@
           Continue
         </v-btn>
       </v-card-actions>
+      <!-- </v-img> -->
     </v-card>
   </div>
 </template>
@@ -145,6 +151,5 @@
 <script>
 export default {
     name:"skills"
-
   }
 </script>
