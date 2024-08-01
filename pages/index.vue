@@ -128,14 +128,13 @@
 </template>
 
 <script>
-import Expe from '~/components/expe.vue';
 import Cv from '~/components/Cv.vue';
 import SomeProjects from '~/components/SomeProjects.vue';
 import SomeSkills from '~/components/SomeSkills.vue';
 import SomeContacts from '~/components/SomeContacts.vue';
 
 export default {
-  components: { Expe ,Cv , SomeProjects,SomeSkills ,SomeContacts},
+  components: {Cv , SomeProjects,SomeSkills ,SomeContacts},
   name: 'IndexPage',
   data () {
     return {
